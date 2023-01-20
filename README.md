@@ -1,4 +1,4 @@
-# Template personalizado con Vue 3 y Vite ❤️
+# Custom template with Vue 3 y Vite ❤️
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core)
 
