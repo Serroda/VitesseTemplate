@@ -14,8 +14,7 @@
     "noEmit": true,
     "types": [
       "vite/client",
-      "vite-plugin-pages/client",
-      "@types/node"
+      "vite-plugin-pages/client"
     ],
     "paths": {
       "~/*": ["./src/*"]
