@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen h-screen flex flex-col items-center justify-center">
     <div class="flex flex-col items-center">
-      <img class="img-gradient" src="vite.svg" width="192" />
+      <img class="img-gradient" :src="img" width="192" />
       <h1 class="text-center">
         Template con <span class="text-green">Vue</span> y
         <span class="text-violet">Vite</span>
@@ -19,6 +19,7 @@
 </template>
 
 <script lang="ts" setup>
+import img from '~/assets/imgs/vite.svg'
 const layoutStore = useLayoutControl();
 useTriggerLayout();
 </script>

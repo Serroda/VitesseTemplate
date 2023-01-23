@@ -2,6 +2,7 @@ import path from 'path'
 import { defineConfig, loadEnv } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import vue from '@vitejs/plugin-vue'
+import checker from 'vite-plugin-checker';
 import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -45,6 +46,11 @@ export default defineConfig(({ mode }) => {
 
       // https://github.com/antfu/unocss
       Unocss(),
+
+      //https://github.com/fi3ework/vite-plugin-checker
+      checker({
+        vueTsc: true,
+      }),
 
       //https://github.com/vite-pwa/vite-plugin-pwa
       VitePWA({

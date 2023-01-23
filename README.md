@@ -8,7 +8,7 @@
 
 - 🚀 [esbuild](https://github.com/evanw/esbuild)
 
-- 🗂 [File based routing](https://github.com/hannoeru/vite-plugin-pages)
+- 🗂  [File based routing](https://github.com/hannoeru/vite-plugin-pages)
 
 - 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components)
 
@@ -21,3 +21,5 @@
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import)
 
 - 🦾 [TypeScript](https://www.typescriptlang.org/)
+
+- 👁️‍🗨️ [Plugin checker](https://github.com/fi3ework/vite-plugin-checker)
