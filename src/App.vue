@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen flex flex-col items-center justify-center">
+  <div class="h-screen flex flex-col items-center justify-center">
     <div class="flex flex-col items-center">
       <img class="img-gradient" :src="img" width="192" />
       <h1 class="text-center">
