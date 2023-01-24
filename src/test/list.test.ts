@@ -16,7 +16,8 @@ test('add item', async () => {
 
     expect(wrapper.emitted('update:dataList')).toHaveLength(1)
 
-    await wrapper.setProps({ dataList: [{ id: 0, text: 'Test' }] })
+    const itemEmited = wrapper.emitted('update:dataList')?.[0]
+    await wrapper.setProps({ dataList: itemEmited })
 
     expect(wrapper.findAll('[data-test="item-list"]')).toHaveLength(1)
 })
