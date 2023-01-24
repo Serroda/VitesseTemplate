@@ -15,6 +15,10 @@ test('add item', async () => {
     await button.trigger('click')
 
     expect(wrapper.emitted('update:dataList')).toHaveLength(1)
+
+    await wrapper.setProps({ dataList: [{ id: 0, text: 'Test' }] })
+
+    expect(wrapper.findAll('[data-test="item-list"]')).toHaveLength(1)
 })
 
 

@@ -22,6 +22,7 @@
         v-for="item in dataList"
         :key="item.id"
         class="mt-4 flex justify-between w-100%"
+        data-test="item-list"
       >
         <p>{{ item.text }}</p>
         <button @click="removeValue(item.id)" class="custom-button">
