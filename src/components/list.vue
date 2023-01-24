@@ -5,23 +5,29 @@
       type="text"
       v-model="inputValue"
       maxlength="10"
+      data-test="input"
     />
     <button
       class="custom-button"
       @click="addValue"
       :disabled="dataList.length === 3"
+      data-test="add-button"
     >
       Add
     </button>
   </div>
   <div class="justify-center flex flex-col items-start w-260px">
     <transition-group name="list">
-    <div v-for="item in dataList" :key="item.id" class="mt-4 flex justify-between w-100%">
-      <p>{{ item.text }}</p>
-      <button @click="removeValue(item.id)" class="custom-button">
-        Remove
-      </button>
-    </div>
+      <div
+        v-for="item in dataList"
+        :key="item.id"
+        class="mt-4 flex justify-between w-100%"
+      >
+        <p>{{ item.text }}</p>
+        <button @click="removeValue(item.id)" class="custom-button">
+          Remove
+        </button>
+      </div>
     </transition-group>
   </div>
 </template>
@@ -59,7 +65,7 @@ const props = defineProps<{
 }>();
 
 function addValue() {
-  if (inputValue.value === "") {
+  if (inputValue.value === "" || inputValue.value.length > 10) {
     return;
   }
 

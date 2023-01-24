@@ -23,3 +23,5 @@
 - 🦾 [TypeScript](https://www.typescriptlang.org/)
 
 - 👁️‍🗨️ [Plugin checker](https://github.com/fi3ework/vite-plugin-checker)
+
+- 👀 [Vitest](https://github.com/vitest-dev/vitest)

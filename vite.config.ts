@@ -18,6 +18,10 @@ export default defineConfig(({ mode }) => {
         '~/': `${path.resolve(__dirname, 'src')}/`,
       },
     },
+    test: {
+      globals: true,
+      environment: "jsdom",
+    },
     plugins: [
       vue(),
 
@@ -34,12 +38,15 @@ export default defineConfig(({ mode }) => {
         imports: [
           'vue',
           'vue-router',
-          'pinia'
+          'pinia',
+          'vitest'
         ],
         dts: true,
         dirs: [
           './src/composables',
-          './src/stores'
+          './src/stores',
+          './src/modules',
+          './src/test'
         ],
         vueTemplate: true,
       }),
