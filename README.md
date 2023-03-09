@@ -25,3 +25,16 @@
 - 👁️‍🗨️ [Plugin checker](https://github.com/fi3ework/vite-plugin-checker)
 
 - 👀 [Vitest with happy-dom](https://github.com/vitest-dev/vitest)
+
+## Requeriments
+
+1. Install [pnpm](https://pnpm.io/es/installation)
+2. Install modules `
+pnpm i 
+`
+3. Execute project `
+pnpm dev
+`
+4. Build project `
+pnpm build
+`
