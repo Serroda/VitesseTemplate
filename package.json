@@ -19,7 +19,7 @@
     "@types/jest": "^29.2.6",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.2.7",
-    "happy-dom": "^8.1.5",
+    "happy-dom": "^9.1.0",
     "typescript": "^5.0.2",
     "unocss": "^0.50.4",
     "unplugin-auto-import": "^0.15.1",
