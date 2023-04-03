@@ -21,7 +21,9 @@
 <script lang="ts" setup>
 import img from '~/assets/imgs/vite.svg'
 const layoutStore = useLayoutControl();
-useTriggerLayout();
+const {sayHello} = useComposableTest()
+layoutStore.checkOnResize();
+sayHello()
 </script>
 
 <style scoped>
