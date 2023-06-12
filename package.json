@@ -13,7 +13,7 @@
   "dependencies": {
     "pinia": "^2.0.29",
     "vue": "^3.3.4",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@types/jest": "^29.2.6",
