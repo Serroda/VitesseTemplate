@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   pinia:
-    specifier: ^2.1.3
-    version: 2.1.3(typescript@5.1.3)(vue@3.3.4)
+    specifier: ^2.1.4
+    version: 2.1.4(typescript@5.1.3)(vue@3.3.4)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -3683,8 +3683,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia@2.1.3(typescript@5.1.3)(vue@3.3.4):
-    resolution: {integrity: sha512-XNA/z/ye4P5rU1pieVmh0g/hSuDO98/a5UC8oSP0DNdvt6YtetJNHTrXwpwsQuflkGT34qKxAEcp7lSxXNjf/A==}
+  /pinia@2.1.4(typescript@5.1.3)(vue@3.3.4):
+    resolution: {integrity: sha512-vYlnDu+Y/FXxv1ABo1vhjC+IbqvzUdiUC3sfDRrRyY2CQSrqqaa+iiHmqtARFxJVqWQMCJfXx1PBvFs9aJVLXQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
