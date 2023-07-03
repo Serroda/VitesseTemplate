@@ -36,7 +36,7 @@
 <style scoped>
 .custom-input,
 .custom-button {
-  border: 2px solid rgb(200, 200, 200);
+  border: 2px solid rgb(230, 230, 230);
   border-radius: 5px;
 
   padding: 0.8rem;
@@ -49,7 +49,7 @@
 
 .custom-input:hover,
 .custom-button:not([disabled]):hover {
-  border: 2px solid rgb(140, 140, 140);
+  border: 2px solid rgb(210, 210, 210);
   cursor: pointer;
 }
 </style>

@@ -1,44 +1,32 @@
 <template>
-  <div class="h-screen flex flex-col items-center justify-center">
-    <div class="flex flex-col items-center">
-      <img class="img-gradient" :src="img" width="192" />
-      <h1 class="text-center">
-        Template con <span class="text-green">Vue</span> y
-        <span class="text-violet">Vite</span>
-      </h1>
-      <p>Referencias obtenidas de <a href="https://github.com/antfu/vitesse" target="_blank">Vitesse</a></p>
-      <p class="text-center">Modo {{ layoutStore.getMode }}</p>
-      <div class="flex justify-center">
-        <router-link class="mr-5" to="/">Inicio</router-link>
-        <router-link to="/test/2">Link 2</router-link>
-      </div>
-    </div>
+  <div class="h-screen w-screen">
+    <navigator class="nav-height"></navigator>
 
-    <router-view />
+    <div class="body-height">
+      <router-view v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import img from '~/assets/imgs/vite.svg'
 const layoutStore = useLayoutControl();
-const {sayHello} = useComposableTest()
+const { sayHello } = useComposableTest()
 layoutStore.checkOnResize();
 sayHello()
+
 </script>
 
 <style scoped>
-@keyframes cloud {
-  0% {
-    filter: drop-shadow(0 0 40px rgba(189, 52, 254, 1));
-  }
-  100% {
-    filter: drop-shadow(0 0 20px rgba(189, 52, 254, 1));
-  }
+.nav-height {
+  height: 60px;
 }
-.img-gradient {
-  animation-name: cloud;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+.body-height {
+  height: calc(100% - 60px);
 }
 </style>
+

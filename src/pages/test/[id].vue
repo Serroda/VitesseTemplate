@@ -4,5 +4,8 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-  <p>Props: {{ props }}</p>
+  <div class="h-100% flex pl-26px pr-26px">
+
+    <p>Props: {{ props }}</p>
+  </div>
 </template>
