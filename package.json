@@ -22,7 +22,7 @@
     "happy-dom": "^9.20.3",
     "typescript": "^5.1.6",
     "unocss": "^0.53.4",
-    "unplugin-auto-import": "^0.16.4",
+    "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.1",
     "vite": "^4.3.9",
     "vite-plugin-checker": "^0.6.1",
