@@ -20,7 +20,7 @@
     "@vitejs/plugin-vue": "^4.3.4",
     "@vue/test-utils": "^2.4.1",
     "happy-dom": "^12.4.0",
-    "typescript": "^5.1.6",
+    "typescript": "^5.2.2",
     "unocss": "^0.56.2",
     "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.1",
