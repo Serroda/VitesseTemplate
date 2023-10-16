@@ -16,7 +16,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.4",
+    "@types/jest": "^29.5.5",
     "@vitejs/plugin-vue": "^4.4.0",
     "@vue/test-utils": "^2.4.1",
     "happy-dom": "^12.4.0",
