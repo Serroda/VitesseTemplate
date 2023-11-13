@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@types/jest':
-    specifier: ^29.5.7
-    version: 29.5.7
+    specifier: ^29.5.8
+    version: 29.5.8
   '@vitejs/plugin-vue':
     specifier: ^4.4.0
     version: 4.4.0(vite@4.5.0)(vue@3.3.8)
@@ -33,7 +33,7 @@ devDependencies:
     version: 5.2.2
   unocss:
     specifier: ^0.57.2
-    version: 0.57.2(postcss@8.4.27)(rollup@2.79.1)(vite@4.5.0)
+    version: 0.57.2(postcss@8.4.31)(rollup@2.79.1)(vite@4.5.0)
   unplugin-auto-import:
     specifier: ^0.16.6
     version: 0.16.6(rollup@2.79.1)
@@ -122,7 +122,7 @@ packages:
       '@babel/helper-compilation-targets': 7.22.5(@babel/core@7.22.5)
       '@babel/helper-module-transforms': 7.22.5
       '@babel/helpers': 7.22.5
-      '@babel/parser': 7.22.5
+      '@babel/parser': 7.23.0
       '@babel/template': 7.22.5
       '@babel/traverse': 7.22.5
       '@babel/types': 7.22.5
@@ -1281,7 +1281,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
-      '@babel/parser': 7.22.5
+      '@babel/parser': 7.23.0
       '@babel/types': 7.22.5
     dev: true
 
@@ -1295,7 +1295,7 @@ packages:
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.5
-      '@babel/parser': 7.22.5
+      '@babel/parser': 7.23.0
       '@babel/types': 7.22.5
       debug: 4.3.4
       globals: 11.12.0
@@ -1758,8 +1758,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest@29.5.7:
-    resolution: {integrity: sha512-HLyetab6KVPSiF+7pFcUyMeLsx25LDNDemw9mGsJBkai/oouwrjTycocSDYopMEwFhN2Y4s9oPyOCZNofgSt2g==}
+  /@types/jest@29.5.8:
+    resolution: {integrity: sha512-fXEFTxMV2Co8ZF5aYFJv+YeA08RTYJfhtN5c9JSv/mFEMe+xxjufCb+PHL+bJcMs/ebPUsBu+UNTEz+ydXrR6g==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
@@ -1861,7 +1861,7 @@ packages:
       sirv: 2.0.3
     dev: true
 
-  /@unocss/postcss@0.57.2(postcss@8.4.27):
+  /@unocss/postcss@0.57.2(postcss@8.4.31):
     resolution: {integrity: sha512-OygjXgHkBPCQ6rc7Zo5vd2KDn4XUikTA1knz67oSiPFZLjUmmhzMc/XtckBITzougMNktv1qH1vECGAbKx+FNA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1873,7 +1873,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.1
       magic-string: 0.30.5
-      postcss: 8.4.27
+      postcss: 8.4.31
     dev: true
 
   /@unocss/preset-attributify@0.57.2:
@@ -4360,7 +4360,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.57.2(postcss@8.4.27)(rollup@2.79.1)(vite@4.5.0):
+  /unocss@0.57.2(postcss@8.4.31)(rollup@2.79.1)(vite@4.5.0):
     resolution: {integrity: sha512-Wmh/a+iXSaDnf6KCf0JtzZ9AoY//fxXLadiXvuTuM4aGEcItHzgt0IeZPs4+ab60usebQBsDyWV5Yr/lgiQ4bQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4376,7 +4376,7 @@ packages:
       '@unocss/cli': 0.57.2(rollup@2.79.1)
       '@unocss/core': 0.57.2
       '@unocss/extractor-arbitrary-variants': 0.57.2
-      '@unocss/postcss': 0.57.2(postcss@8.4.27)
+      '@unocss/postcss': 0.57.2(postcss@8.4.31)
       '@unocss/preset-attributify': 0.57.2
       '@unocss/preset-icons': 0.57.2
       '@unocss/preset-mini': 0.57.2
