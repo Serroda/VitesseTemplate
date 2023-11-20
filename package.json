@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.8",
-    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue": "^4.5.0",
     "@vue/test-utils": "^2.4.1",
     "happy-dom": "^12.10.3",
     "typescript": "^5.2.2",
