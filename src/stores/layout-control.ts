@@ -29,6 +29,6 @@ export const useLayoutControl = defineStore('layout', () => {
             window.onresize = null
         })
     }
-    
+
     return { mode, getMode, changeMode, checkOnResize }
 })

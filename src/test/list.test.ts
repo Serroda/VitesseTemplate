@@ -1,4 +1,5 @@
 import List from '../components/list.vue'
+import { IDataList } from '~/types/list'
 import { mount } from '@vue/test-utils'
 
 test('add item', async () => {
@@ -7,7 +8,6 @@ test('add item', async () => {
             dataList: []
         }
     })
-
     const input = wrapper.find('[data-test="input"]')
     const button = wrapper.find('[data-test="add-button"]')
 
@@ -16,7 +16,7 @@ test('add item', async () => {
 
     expect(wrapper.emitted('update:dataList')).toHaveLength(1)
 
-    const itemEmited = wrapper.emitted('update:dataList')?.[0]
+    const itemEmited = wrapper.emitted('update:dataList')?.[0] as IDataList[]
     await wrapper.setProps({ dataList: itemEmited })
 
     expect(wrapper.findAll('[data-test="item-list"]')).toHaveLength(1)
