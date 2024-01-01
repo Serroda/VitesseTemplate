@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^29.5.11
     version: 29.5.11
   '@vitejs/plugin-vue':
-    specifier: ^4.5.2
-    version: 4.5.2(vite@4.5.0)(vue@3.3.11)
+    specifier: ^4.6.2
+    version: 4.6.2(vite@4.5.0)(vue@3.3.11)
   '@vue/test-utils':
     specifier: ^2.4.3
     version: 2.4.3(vue@3.3.11)
@@ -2043,8 +2043,8 @@ packages:
       - rollup
     dev: true
 
-  /@vitejs/plugin-vue@4.5.2(vite@4.5.0)(vue@3.3.11):
-    resolution: {integrity: sha512-UGR3DlzLi/SaVBPX0cnSyE37vqxU3O6chn8l0HJNzQzDia6/Au2A4xKv+iIJW8w2daf80G7TYHhi1pAUjdZ0bQ==}
+  /@vitejs/plugin-vue@4.6.2(vite@4.5.0)(vue@3.3.11):
+    resolution: {integrity: sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
@@ -4267,7 +4267,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.3
-      acorn: 8.10.0
+      acorn: 8.11.2
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
